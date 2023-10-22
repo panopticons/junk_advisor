@@ -3,11 +3,11 @@ import styles from '../styles/Home.module.css';
 import Menu from '../components/menu'
 
 
-export default function Home() {
+export default function Information() {
   return (
     <div className={styles.parent}>
       <Head>
-        <title>JunkAdvisor Home</title>
+        <title>JunkAdvisor Info</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,10 +15,9 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          JunkAdvisor
+          Information TBD
         </h1>
       </main>
-
     </div>
   );
 }

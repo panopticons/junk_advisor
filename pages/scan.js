@@ -1,38 +1,27 @@
 import Head from 'next/head';
+import General_Layout from '../components/general_layout'
+import Menu from '../components/menu'
 import styles from '../styles/Home.module.css';
 
+
 export default function Scan() {
-  return (
-    <div className={styles.container}>
+    return (
+      <General_Layout>
+        <div className={styles.parent}>
       <Head>
         <title>Scan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Menu></Menu>
+
       <main>
         <h1 className={styles.title}>
-            scan
+          Scan
         </h1>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Scan &rarr;</h3>
-            <p>empty test.</p>
-          </a>
-
-        </div>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
     </div>
-  );
-}
+      </General_Layout>
+    )
+  }
