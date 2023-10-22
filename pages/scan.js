@@ -17,7 +17,7 @@ export default function Scan() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Scan &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>empty test.</p>
           </a>
 
         </div>
